@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordel Moderno</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <img src="imagens/logo.png" alt="logo">
+        <span id="burguer" class="material-icons" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Novidade</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </menu>
+
+
+    </header>
+
+
+    <section class="normal">
+        <div id="table">
+            <ul id="game">
+
+                <li>
+                    <a>
+                        <div class="quadrado" id="q1"></div>
+                    </a>
+                    <a>
+                      
+                        <a>
+                        <div class="quadrado" id="q2"></div>
+                    </a>
+
+                    <a>
+                        <div class="quadrado" id="q3"></div>
+                    </a>
+                  
+                    <a>
+                        <div class="quadrado" id="q4"></div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="imagem" id="img01">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni nemo quas, nesciunt atque nihil culpa
+            odio sed tenetur iusto amet dolor vero omnis quaerat suscipit dolore voluptatem aliquid vitae.
+
+        </p>
+    </section>
+
+    <section class="normal">
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, cum pariatur neque veritatis ullam,
+            provident, obcaecati ipsum sunt minima id voluptates explicabo voluptatibus temporibus odit nulla nihil
+            adipisci recusandae laudantium?
+        </p>
+        <p>
+
+        </p>
+
+    </section>
+
+    <section class="imagem" id="img02">
+        <p>
+
+        </p>
+    </section>
+
+
+    <section class="normal">
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+    </section>
+
+    <footer>
+
+        <section id="redes-sociais">
+            <a href="#" target="_blank"><img src="imagens/logo-youtube.jpg" alt="Youtube"></a>
+            <a href="#" target="_blank"><img src="imagens/logo-github.jpg" alt="Github"></a>
+            <a href="#" target="_blank"><img src="imagens/logo-instagram.jpg" alt="Instram"></a>
+            <a href="#" target="_blank"><img src="imagens/logo-twitter.jpg" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="imagens/logo-facebook.jpg" alt="Facebook"></a>
+
+        </section>
+    </footer>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+
+        }
+    </script>
+</body>
+
+</html>

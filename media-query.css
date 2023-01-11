@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Tipical Device Breakpoints
+---------------------------------
+    Pequenos ecrãs: até 600px
+    Telemovel: 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    grandes Ecãs: mais de 1200px
+*/
+
+@media screen and (max-width: 700px) {
+
+   * {
+        width: 100vw;
+    }
+    
+}
+
+@media screen  and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+ 
+
+
+menu{
+    display: block;
+}
+
+menu > ul > li {
+    display: inline-block;
+}
+
+main{
+    width: 768px;
+}
+
+
+}
+
+@media screen and (min-width: 1500px) {
+    div#table{
+        position: relative;
+        left: 100px;
+        top: 20px;
+    }
+  
+
+}
+
+@media screen and (min-width: 1550px){
+    
+
+div#table{
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+}
+
